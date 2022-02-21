@@ -1,0 +1,53 @@
+.circle1{
+    position: absolute;
+    margin: -15rem -30rem;
+    display:flex;
+    border-radius: 50%;
+    width: 50vw;
+    height: 75vh;
+    background-color: #e66465;
+    filter: blur(9rem);
+    z-index:-10;
+  }
+
+.circle2{
+    position: fixed;
+    margin: 40rem 100rem;
+    display:flex;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50vw;
+    height: 75vh;
+    background-color: #9198e5;
+    filter: blur(9rem);
+    z-index:-10;
+}
+
+@media screen and (max-width: 800px) {
+    .circle1{
+        position: absolute;
+        margin: -7rem -3rem;
+        display:flex;
+        border-radius: 50%;
+        width: 50vw;
+        height: 75vh;
+        background-color: #e66465;
+        filter: blur(9rem);
+        z-index:-10;
+      }
+    
+    .circle2{
+        position: fixed;
+        margin: 45rem 16rem;
+        display:flex;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 50vw;
+        height: 75vh;
+        background-color: #9198e5;
+        filter: blur(9rem);
+        z-index:-10;
+    }
+}
+
+

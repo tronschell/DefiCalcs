@@ -3,5 +3,7 @@ export {default as Home} from "./Home";
 export {default as AprToApy} from "./AprToApy";
 export {default as ApyToApr} from "./ApyToApr";
 export {default as ImpermanentLoss} from "./ImpermanentLoss";
+export {default as Background} from "./Background";
+
 
 

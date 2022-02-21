@@ -1,13 +1,10 @@
 body{
     background-color: #191B1F;
     font-family: Inter;
-    background-image: url('../images/test.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  
-  
   
   .header3{
     display:flex;
@@ -35,6 +32,7 @@ body{
     align-items: center;
     justify-content: center;
     color:white;
+    z-index: 1;
   }
   
   .icons{
@@ -43,6 +41,7 @@ body{
   }
   
   .calc-cards{
+  
    display: flex;
    flex-direction:row;
    align-items: center;
@@ -55,6 +54,7 @@ body{
   .card{
     display:flex;
     width: 15rem;
+    height:18rem;
     
     flex-direction: column;
     align-items: center;
@@ -71,9 +71,12 @@ body{
     flex-direction: column;
     align-items: center;
   }
+
+  .card p{
+    height: 35%;
+  }
   
   p{
     color:rgb(135, 141, 155);
   }
-  
   
