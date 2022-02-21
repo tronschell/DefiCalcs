@@ -42,15 +42,13 @@ input{
 }
 
 .name button{
-    width:3rem;
-    border:1px solid rgba(255, 255, 255, 0.19);
     border-radius: 0.5rem;
     background: linear-gradient(315deg, #e66465, #9198e5);
 }
 
 .name button:hover{
-    border-width: 3px;
-  border-style: solid;
+    border-width: 0.4px;
+    border-style: solid;
     transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 

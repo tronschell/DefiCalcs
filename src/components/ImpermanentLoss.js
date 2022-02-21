@@ -17,7 +17,7 @@ function ImpermanentLoss(){
             <div className = "calc-background">
                 <div className="name">
                     <h1>Impermanent Loss</h1>
-                    <NavLink to="/ApyToApr"><button><CgArrowsExchange size="20" color="white"/></button></NavLink>
+                
                 </div>
                 <div className='section'>
                     <p>APR (%)</p>
