@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import{
-  Navigation, Home, ImpermanentLoss, AprToApy, ApyToApr, Background
+  Navigation, Home, ImpermanentLoss, AprToApy, ApyToApr, Background, ImpermanentLossAdvanced
 } from "./components";
 
 ReactDOM.render(
@@ -16,6 +16,7 @@ ReactDOM.render(
             <Route path="/AprToApy" element={<AprToApy />} />
             <Route path="/ApyToApr" element={<ApyToApr />} />
             <Route path="/ImpermanentLoss" element={<ImpermanentLoss />} />
+            <Route path="/ImpermanentLossAdvanced" element={<ImpermanentLossAdvanced />} />
 
 
               

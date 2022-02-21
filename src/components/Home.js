@@ -12,8 +12,8 @@ function Home(){
                 <h1>An aggregator for all Defi Calculators.</h1>
 
                 <div className='icons'>
-                  <SiDiscord size="28"/>
-                  <SiTwitter size="28"/>
+                  <a target = "_blank" href="https://discord.gg/h4GkdkAcFQ"><SiDiscord size="28"/></a>
+                  <a target = "_blank" href="https://twitter.com/tronschell"><SiTwitter size="28"/></a>
                 </div>
             </div>
           
@@ -32,7 +32,7 @@ function Home(){
               </div>
               <div className='card'>
                 <h2>Impermanent Loss</h2>
-                <p> Coming Soon. Calculate impermanent loss from liquidity pool farming.</p>
+                <p>Calculate impermanent loss from liquidity pool farming.</p>
                 <NavLink className="nav-button" to="/ImpermanentLoss"><div className='header3'>Enter</div></NavLink>
               </div>
 

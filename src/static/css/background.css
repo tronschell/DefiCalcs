@@ -1,6 +1,6 @@
 .circle1{
     position: absolute;
-    margin: -15rem -30rem;
+    margin: -15vw -50vh;
     display:flex;
     border-radius: 50%;
     width: 50vw;
@@ -12,7 +12,7 @@
 
 .circle2{
     position: fixed;
-    margin: 40rem 100rem;
+    margin: 50vw 120vh;
     display:flex;
     border-radius: 50%;
     overflow: hidden;
