@@ -129,7 +129,7 @@ input{
     
         justify-content: center;
         color:white;
-        width:108%;
+        width:100%;
         padding:0.75rem !important;
         background: linear-gradient(315deg, #e66465, #9198e5);
         border-radius:0.5rem;
@@ -139,7 +139,7 @@ input{
 
     .ila-submit:hover{
         display:flex;
-        width: 108%;
+        width: 100%;
         background:linear-gradient(315deg#e66465, #9198e5);
         border-radius:1rem;
         border-color:aliceblue;
