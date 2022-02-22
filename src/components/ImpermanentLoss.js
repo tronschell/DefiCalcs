@@ -26,7 +26,7 @@ function ImpermanentLoss(){
         <>
         
         <div className="main">
-            <div className = "calc-background">
+            <div className = "il-calc-background">
                 <div className="name">
                     <h1>Impermanent Loss</h1>
                     <NavLink to="/ImpermanentLossAdvanced"><button><BsThreeDots size="20" color="white"></BsThreeDots></button></NavLink>
@@ -42,7 +42,7 @@ function ImpermanentLoss(){
                     <input autoComplete='off' inputMode='decimal' value={change2} name="Change2" placeholder="0.00" onChange={e => setChange2(e.target.value)} />
                 </div>
 
-                <button onClick={()=> setShow(true)} className='submit'>Submit</button>
+                <button onClick={()=> setShow(true)} className='il-submit'>Submit</button>
                 {
                     Show?<p>Impermanent Loss = {handleInput()}%</p>:null
                 }

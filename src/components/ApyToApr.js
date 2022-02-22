@@ -14,7 +14,7 @@ function ApyToApr(){
         <>
         
         <div className="main">
-            <div className = "calc-background">
+            <div className = "apy-apr-calc-background">
                 <div className="name">
                     <h1>APY to APR</h1>
                     <NavLink to="/AprToApy"><button><CgArrowsExchange size="20" color="white"/></button></NavLink>
@@ -29,7 +29,7 @@ function ApyToApr(){
                     <input autoComplete='off' inputMode='decimal' value={CompoundingInterval} name="Compounding Interval" placeholder="0" onChange={e => setCompoundingInterval(e.target.value)} />
                 </div>
 
-                <button onClick={()=> setShow(true)} className='submit'>Submit</button>
+                <button onClick={()=> setShow(true)} className='apy-apr-submit'>Submit</button>
                 {
                     Show?<p>APR = {Math.round(100*(((1+parseFloat(Apy*0.01))**(1/parseInt(CompoundingInterval))-1)*CompoundingInterval)*100)/100}%</p>:null
                 }

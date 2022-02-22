@@ -31,7 +31,7 @@ function ImpermanentLossAdvanced(){
         <>
         
         <div className="main">
-            <div className = "calc-background">
+            <div className = "ila-calc-background">
                 <div className="name">
                     <h1>Impermanent Loss</h1>
                     <NavLink to="/ImpermanentLoss"><button><BsThreeDots size="20" color="white"></BsThreeDots></button></NavLink>
@@ -54,7 +54,7 @@ function ImpermanentLossAdvanced(){
                     <input autoComplete='off' inputMode='decimal' value={priceAsset2After} name="priceAsset2After" placeholder='$0.00' onChange={e => setPriceAsset2After(e.target.value)} />
                 </div>
 
-                <button onClick={()=> setShow(true)} className='submit'>Submit</button>
+                <button onClick={()=> setShow(true)} className='ila-submit'>Submit</button>
                 {
                     Show?<p>Impermanent Loss = {handleInput()}%</p>:null
                 }

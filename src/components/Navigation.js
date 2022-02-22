@@ -14,8 +14,8 @@ function Navigation(){
           </div>
   
           
-          <a className='patreon' href="#">
-            <div className = "header3">
+          <a href="https://www.patreon.com/tronschell">
+            <div className = "patreon">
             Patreon
             </div>
           </a>
