@@ -111,7 +111,7 @@
     .il-calc-background{
         background-color:#191B1F;
         width:80%;
-        margin:0 auto;
+        margin:5% auto;
         display:flex;
         flex-direction: column;
         justify-content: center;
