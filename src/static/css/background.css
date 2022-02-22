@@ -23,13 +23,13 @@
     z-index:-10;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .circle1{
         position: absolute;
         margin: -7rem -3rem;
         display:flex;
         border-radius: 50%;
-        width: 50vw;
+        width: 30vw;
         height: 75vh;
         background-color: #e66465;
         filter: blur(9rem);
@@ -38,16 +38,19 @@
     
     .circle2{
         position: fixed;
-        margin: 45rem 16rem;
+        margin: 25rem 20rem;
         display:flex;
         border-radius: 50%;
         overflow: hidden;
-        width: 50vw;
-        height: 75vh;
+        width: 40vw;
+        height: 55vh;
         background-color: #9198e5;
         filter: blur(9rem);
-        z-index:-10;
+        z-index:-1;
+
     }
+
+    
 }
 
 

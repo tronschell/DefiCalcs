@@ -22,18 +22,18 @@ function Home(){
                 <h2>APR to APY</h2>
                 <p> 
                   Convert from APR to APY and vice versa. </p>
-                <NavLink className="nav-button" to="/AprToApy"><div className='header3'>Enter</div></NavLink>
+                <NavLink className="nav-button" to="/AprToApy"><div className='enter'>Enter</div></NavLink>
               </div>
               <div className='card'>
                 <h2>Defi 2.0</h2>
                 <p>Coming Soon. Rebase protocols like Olympus DAO, Time Wonderland, etc.</p>
-                <a href="#"><div className='header3'>Enter</div></a>
+                <a href="#"><div className='enter'>Enter</div></a>
 
               </div>
               <div className='card'>
                 <h2>Impermanent Loss</h2>
                 <p>Calculate impermanent loss from liquidity pool farming.</p>
-                <NavLink className="nav-button" to="/ImpermanentLoss"><div className='header3'>Enter</div></NavLink>
+                <NavLink className="nav-button" to="/ImpermanentLoss"><div className='enter'>Enter</div></NavLink>
               </div>
 
             </div>

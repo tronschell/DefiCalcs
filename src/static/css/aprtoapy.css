@@ -18,8 +18,8 @@
     
 }
 
-input{
-    width:20rem;;
+.section input{
+    width:5rem;
     padding:1rem;
     background-color: #1E1F23;
     border: none;
@@ -42,17 +42,23 @@ input{
 }
 
 .name button{
+    width:3rem;
     border-radius: 0.5rem;
     background: linear-gradient(315deg, #e66465, #9198e5);
 }
 
 .name button:hover{
-    border-width: 0.4px;
+    border-width: 1px;
     border-style: solid;
     transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 .section{
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: #1E1F23;
     border-radius: 0.5rem;
     border:1px solid rgba(255, 255, 255, 0.19);
@@ -86,11 +92,10 @@ input{
 .submit:hover{
   display:flex;
   width: 22rem;
-  padding:1rem !important;
   background:linear-gradient(315deg#e66465, #9198e5);
   border-radius:1rem;
   border-color:aliceblue;
-  border-width: 3px;
+  border-width: 1px;
   border-style: solid;
   
 }

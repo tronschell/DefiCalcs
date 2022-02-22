@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { NavLink } from "react-router-dom";
-import { CgArrowsExchange } from 'react-icons/cg';
+import { BsThreeDots } from 'react-icons/bs';
 import "../static/css/impermanentlossadvanced.css"
 
 function ImpermanentLossAdvanced(){
@@ -34,7 +34,7 @@ function ImpermanentLossAdvanced(){
             <div className = "calc-background">
                 <div className="name">
                     <h1>Impermanent Loss</h1>
-                    <NavLink to="/ImpermanentLoss"><button><CgArrowsExchange size="20" color="white"></CgArrowsExchange></button></NavLink>
+                    <NavLink to="/ImpermanentLoss"><button><BsThreeDots size="20" color="white"></BsThreeDots></button></NavLink>
                 
                 </div>
                 <div className='section'>

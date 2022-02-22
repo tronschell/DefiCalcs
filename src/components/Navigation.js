@@ -8,13 +8,13 @@ function Navigation(){
 
         <ul>
           <div className = "header1">
-            <h1>DefiCalcs</h1>
+            <NavLink className="nav-button" to="/"><h1>DefiCalcs</h1></NavLink>
             <NavLink className="nav-button" to="/">Calculators</NavLink>
             <NavLink className="nav-button" to = "/about">About</NavLink>
           </div>
   
           
-          <a href="#">
+          <a className='patreon' href="#">
             <div className = "header3">
             Patreon
             </div>
