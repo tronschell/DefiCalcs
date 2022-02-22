@@ -26,26 +26,26 @@
 @media screen and (max-width: 768px) {
     .circle1{
         position: absolute;
-        margin: -7rem -3rem;
+        margin: 0rem 0rem;
         display:flex;
         border-radius: 50%;
-        width: 30vw;
-        height: 75vh;
+        width: 50vw;
+        height: 55vh;
         background-color: #e66465;
-        filter: blur(9rem);
+        filter: blur(7rem);
         z-index:-10;
       }
     
     .circle2{
         position: fixed;
-        margin: 25rem 20rem;
+        margin: 25rem 10rem;
         display:flex;
         border-radius: 50%;
         overflow: hidden;
-        width: 40vw;
+        width: 50vw;
         height: 55vh;
         background-color: #9198e5;
-        filter: blur(9rem);
+        filter: blur(7rem);
         z-index:-1;
 
     }

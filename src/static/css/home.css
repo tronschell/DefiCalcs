@@ -99,7 +99,7 @@ body{
     display: flex;
     flex-direction: column;
     width: fit-content;
-    margin: 5% auto;
+    margin: 10% auto;
     align-items: center;
     justify-content: center;
     color:white;
@@ -148,6 +148,14 @@ body{
   .card h2{
     margin:0;
   }
-
+  .enter{
+    display:flex;
+    width: 90px;
+    padding:0.75rem !important;
+    background: linear-gradient(315deg, #e66465, #9198e5);
+    border-radius:0.5rem;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
 
 }

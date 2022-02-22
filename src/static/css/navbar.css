@@ -39,7 +39,7 @@
 
   @media screen and (max-width: 768px) {
     .header ul{
-      height: 100px;
+      height: 75px;
       display:flex;
       flex-direction: row;
       align-items: center;
@@ -66,7 +66,6 @@
       flex-direction: column;
       background: linear-gradient(315deg, #e66465, #9198e5);
       border-radius:0.5rem;
-      padding:0.5rem;
-
+      padding:0.75rem;
     }
   }
