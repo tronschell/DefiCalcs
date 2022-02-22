@@ -41,7 +41,7 @@ function ImpermanentLossAdvanced(){
                     <p>Price of Asset 1</p>
                     <input autoComplete='off' inputMode='decimal' value={priceAsset1} name="priceAsset1" placeholder='$0.00' onChange={e => setPriceAsset1(e.target.value)} />
                     
-                    <p>Price of Asset 1 (Future)</p>
+                    <p>Future price of Asset 1</p>
                     <input autoComplete='off' inputMode='decimal' value={priceAsset1After} name="priceAsset1After" placeholder='$0.00' onChange={e => setPriceAsset1After(e.target.value)} />
 
                 </div>
@@ -50,7 +50,7 @@ function ImpermanentLossAdvanced(){
                 <p>Price of Asset 2</p>
                     <input autoComplete='off' inputMode='decimal' value={priceAsset2} name="priceAsset2" placeholder='$0.00' onChange={e => setPriceAsset2(e.target.value)} />
                     
-                    <p>Price of Asset 2 (Future)</p>
+                    <p>Future price of Asset2</p>
                     <input autoComplete='off' inputMode='decimal' value={priceAsset2After} name="priceAsset2After" placeholder='$0.00' onChange={e => setPriceAsset2After(e.target.value)} />
                 </div>
 
